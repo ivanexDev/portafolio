@@ -1,0 +1,26 @@
+.Navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+	border-bottom: 0.3px solid #393939;
+	gap: 40px;
+	position: fixed;
+}
+.navbar-options {
+	text-decoration: none;
+	color: #a1a1a1;
+	font-weight: 400;
+	font-size: 0.875rem;
+}
+
+@media (width <= 730px) {
+	.Navbar {
+		gap: 65px;
+	}
+	.navbar-options {
+		font-size: 1rem;
+	}
+}
