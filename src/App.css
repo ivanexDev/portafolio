@@ -30,6 +30,18 @@ p {
 	}
 }
 
+@media (width <= 400px) {
+	h1 {
+		font-size: 50px;
+	}
+
+	p {
+		text-align: center;
+		margin: 60px 0 75px 0;
+		font-size: 20px;
+	}
+}
+
 .social-networks {
 	display: flex;
 	align-items: center;
