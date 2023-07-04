@@ -42,7 +42,7 @@ const Home: React.FC<HomeProps> = () => {
 			<h1 className={transition}>Iván Pereira</h1>
 			<h1 className={transition2}>Front-End</h1>
 			<h1 className={transition3}>{dev}</h1>
-			<p>Passionate about technological innovation. </p>
+			<p className="subtitule">Apasionado por la tecnología y la innovación.</p>
 			<div className="social-networks">
 				<a
 					className="social-networks__link"

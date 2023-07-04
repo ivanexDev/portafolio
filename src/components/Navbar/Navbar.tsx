@@ -1,21 +1,24 @@
 import React from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 export type NavbarProps = {};
 
 const Navbar: React.FC<NavbarProps> = () => {
 	return (
-		<nav className="Navbar">
-			<a className="navbar-options" href="">
-				Home
-			</a>
-			<a className="navbar-options" href="">
-				About me{" "}
-			</a>
-			<a className="navbar-options" href="">
-				Projects
-			</a>
-		</nav>
+		<header>
+			<nav className="Navbar">
+				<NavLink className="navbar-options" to="/">
+					Inicio
+				</NavLink>
+				<NavLink className="navbar-options" to="/aboutme">
+					Sobre mi
+				</NavLink>
+				<NavLink className="navbar-options" to="/projects">
+					Proyectos
+				</NavLink>
+			</nav>
+		</header>
 	);
 };
 

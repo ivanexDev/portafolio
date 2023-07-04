@@ -8,6 +8,7 @@
 	border-bottom: 0.3px solid #393939;
 	gap: 40px;
 	position: fixed;
+	margin: 0;
 }
 .navbar-options {
 	text-decoration: none;
