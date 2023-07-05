@@ -12,7 +12,7 @@ export type AboutmeProps = {};
 
 const Aboutme: React.FC<AboutmeProps> = () => {
 	return (
-		<main className="aboutme-main">
+		<main>
 			<div className="aboutme-container">
 				<h2 className="h2Style">¡Bienvenido a mi portafolio digital!</h2>
 				<div className="aboutme-dec-img">

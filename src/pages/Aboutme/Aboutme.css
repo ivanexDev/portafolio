@@ -55,7 +55,32 @@
 	display: flex;
 	gap: 40px;
 	margin: 50px 0 200px 0;
+	flex-wrap: wrap;
 }
 
 @media (width <= 830px) {
+	.aboutme-dec-img {
+		display: flex;
+		flex-direction: column;
+	}
+	.aboutme {
+		width: 80%;
+	}
+	.h2Style {
+		text-align: center;
+	}
+	main {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.tech {
+		margin: 50px 20px 200px 20px;
+		justify-content: center;
+	}
+
+	.imgprofile {
+		width: 250px;
+		height: 250px;
+	}
 }

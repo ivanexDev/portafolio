@@ -39,19 +39,23 @@ const Home: React.FC<HomeProps> = () => {
 	const dev = `<Dev/>`;
 	return (
 		<main>
-			<h1 className={transition}>Iván Pereira</h1>
-			<h1 className={transition2}>Front-End</h1>
-			<h1 className={transition3}>{dev}</h1>
-			<p className="subtitule">Apasionado por la tecnología y la innovación.</p>
-			<div className="social-networks">
-				<a
-					className="social-networks__link"
-					href="https://github.com/ivanexdev">
-					<Github />
-				</a>
-				<a href="https://www.linkedin.com/in/ipereirameza/">
-					<Linkedin />
-				</a>
+			<div className="home-container">
+				<h1 className={transition}>Iván Pereira</h1>
+				<h1 className={transition2}>Front-End</h1>
+				<h1 className={transition3}>{dev}</h1>
+				<p className="subtitule">
+					Apasionado por la tecnología y la innovación.
+				</p>
+				<div className="social-networks">
+					<a
+						className="social-networks__link"
+						href="https://github.com/ivanexdev">
+						<Github />
+					</a>
+					<a href="https://www.linkedin.com/in/ipereirameza/">
+						<Linkedin />
+					</a>
+				</div>
 			</div>
 		</main>
 	);
