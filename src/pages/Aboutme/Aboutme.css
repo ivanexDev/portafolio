@@ -43,6 +43,7 @@
 /* Titles */
 
 .h2Style {
+	padding: 0 20px;
 	margin-top: 60px;
 	font-size: 48px;
 	background: linear-gradient(0.4turn, rgb(254, 46, 23), rgb(255, 239, 68));
