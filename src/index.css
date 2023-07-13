@@ -4,7 +4,16 @@ body {
 	font-family: "Inter", sans-serif;
 	padding: 0;
 	margin: 0;
+	overflow-y: scroll;
 }
-/* body {
-	overflow: auto;
-} */
+
+body::-webkit-scrollbar {
+	width: 12px;
+	background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: black;
+	border-radius: 20px;
+	border: 1px solid rgb(254, 221, 0);
+}

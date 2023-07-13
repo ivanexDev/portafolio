@@ -8,7 +8,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 	return (
 		<header>
 			<nav className="Navbar">
-				<NavLink className="navbar-options" to="/">
+				<NavLink className="navbar-options rainbow-text" to="/">
 					Inicio
 				</NavLink>
 				<NavLink className="navbar-options" to="/aboutme">

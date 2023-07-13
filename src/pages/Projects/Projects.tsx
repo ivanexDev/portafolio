@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import projectsData from "./projects.data";
-import ProjectCard from "./component/ProjectCard";
+import { ProjectCards } from "./components/ProjectCards";
+import { projectsData } from "./projects.data";
 
 export type ProjectsProps = {};
 
@@ -9,16 +9,8 @@ const Projects: React.FC<ProjectsProps> = () => {
 	return (
 		<main>
 			<div className="projects-container">
-				{projectsData.map(({ title, img, description, url }, index) => {
-					return (
-						<ProjectCard
-							url={url}
-							title={title}
-							img={img}
-							description={description}
-							key={`projects-${index}-${title}`}
-						/>
-					);
+				{projectsData.map((data) => {
+					return <ProjectCards data={data} />;
 				})}
 			</div>
 		</main>

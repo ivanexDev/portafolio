@@ -7,6 +7,8 @@ import JsIcon from "../../components/icons/JsIcon";
 import TsIcon from "../../components/icons/TsIcon";
 import ReactIcon from "../../components/icons/ReactIcon";
 import GitIcon from "../../components/icons/GitIcon";
+import DownloadIcon from "../../components/icons/DownloadIcon";
+import pdf from "../../../public/cv.pdf";
 
 export type AboutmeProps = {};
 
@@ -60,6 +62,10 @@ const Aboutme: React.FC<AboutmeProps> = () => {
 				<ReactIcon />
 				<GitIcon />
 			</div>
+			<h2 className="h2Style">Descargar CV</h2>
+			<a className="download-icon-container" href={pdf}>
+				<DownloadIcon />
+			</a>
 		</main>
 	);
 };
