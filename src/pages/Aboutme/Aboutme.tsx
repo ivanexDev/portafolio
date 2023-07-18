@@ -63,7 +63,7 @@ const Aboutme: React.FC<AboutmeProps> = () => {
 				<GitIcon />
 			</div>
 			<h2 className="h2Style">Descargar CV</h2>
-			<a className="download-icon-container" href={pdf}>
+			<a className="download-icon-container" href={pdf} target="_blank">
 				<DownloadIcon />
 			</a>
 		</main>

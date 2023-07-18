@@ -10,7 +10,7 @@ export type PageButtonProps = {
 
 const PageButton: React.FC<PageButtonProps> = ({ url }) => {
 	return (
-		<a href={url.url} className="pagebutton">
+		<a href={url.url} className="pagebutton" target="_blank">
 			{url.tipo}
 		</a>
 	);
