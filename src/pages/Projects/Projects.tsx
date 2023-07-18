@@ -9,8 +9,8 @@ const Projects: React.FC<ProjectsProps> = () => {
 	return (
 		<main>
 			<div className="projects-container">
-				{projectsData.map((data) => {
-					return <ProjectCards data={data} />;
+				{projectsData.map((data, index) => {
+					return <ProjectCards data={data} key={`${data.title}-${index}`} />;
 				})}
 			</div>
 		</main>

@@ -1,11 +1,14 @@
-import img1 from "../../assets/img/laptop.jpg";
+import documento from "../../assets/img/documento.png";
+import chat from "../../assets/img/chat.png";
+import tiempo from "../../assets/img/tiempo.png";
+import encriptador from "../../assets/img/encriptador.png";
 
 export const projectsData: ProjectDataInterface[] = [
 	{
 		title: "Encriptador",
-		img: img1,
+		img: encriptador,
 		description:
-			"Aplicacion que busca encriptar de manera basica un texto cambiando vocales",
+			"Aplicacion que busca encriptar de manera basica un texto cambiando vocales.",
 		urls: [
 			{
 				tipo: "LivePage",
@@ -19,25 +22,25 @@ export const projectsData: ProjectDataInterface[] = [
 	},
 	{
 		title: "App del tiempo",
-		img: img1,
+		img: tiempo,
 		description:
-			"Aplicacion que muestra la temperatura de distintas ciudades utilizando OpenWeather API",
+			"Aplicacion que muestra la temperatura de distintas ciudades utilizando OpenWeather API.",
 		urls: [
 			{
 				tipo: "LivePage",
-				url: "https://github.com/ivanexDev/react-weather",
-			},
-			{
-				tipo: "Github",
 				url: "https://reactweather-green.vercel.app/",
 			},
+			{
+				tipo: "Github",
+				url: " https://github.com/ivanexDev/react-weather",
+			},
 		],
 	},
 	{
 		title: "Chat",
-		img: img1,
+		img: chat,
 		description:
-			"Chat en tiempo real utilizando React y base de datos Supabase, para manejar los mensajes",
+			"Chat en tiempo real utilizando React y base de datos Supabase, para manejar los mensajes.",
 		urls: [
 			{
 				tipo: "LivePage",
@@ -50,18 +53,18 @@ export const projectsData: ProjectDataInterface[] = [
 		],
 	},
 	{
-		title: "Chat",
-		img: img1,
+		title: "Notas Curso",
+		img: documento,
 		description:
-			"Chat en tiempo real utilizando React y base de datos Supabase, para manejar los mensajes",
+			"Notas del curso, promedio persona, promedio del curso y alumno que obtuvo mejor promedio.",
 		urls: [
 			{
 				tipo: "LivePage",
-				url: "https://react-chat-red.vercel.app/",
+				url: "https://ivanexdev.github.io/promedio-curso/",
 			},
 			{
 				tipo: "Github",
-				url: "https://github.com/ivanexDev/ReactChat",
+				url: "https://github.com/ivanexDev/promedio-curso",
 			},
 		],
 	},

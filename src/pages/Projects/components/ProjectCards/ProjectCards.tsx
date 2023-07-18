@@ -1,6 +1,5 @@
 import React from "react";
 import "./ProjectCards.css";
-import img from "../../../../assets/img/laptop.jpg";
 import { PageButton } from "../PageButton";
 import { ProjectDataInterface } from "../../projects.data";
 
@@ -11,7 +10,7 @@ export type ProjectCardsProps = {
 const ProjectCards: React.FC<ProjectCardsProps> = ({ data }) => {
 	return (
 		<div className="projectcards-container">
-			<img src={img} alt="" />
+			<img src={data.img} alt="" />
 			<h2 className="h2Style">{data.title}</h2>
 			<p className="projectcards-container-p">{data.description}</p>
 			<div className="line"></div>

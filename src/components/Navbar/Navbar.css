@@ -69,3 +69,47 @@
 		background-position: 0% 50%;
 	}
 }
+
+.option-test {
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+
+.option-test::after {
+	background-color: rgb(254, 220, 0);
+	content: "";
+	height: 3px;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 0px;
+	transition: 1s ease;
+}
+
+.option-test:hover::after {
+	width: 100%;
+}
+
+.active {
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+
+.active::after {
+	background-color: rgb(254, 220, 0);
+	content: "";
+	height: 3px;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+}
+
+.navbar-mail {
+	text-decoration: none;
+	display: flex;
+	gap: 5px;
+	color: white;
+}
