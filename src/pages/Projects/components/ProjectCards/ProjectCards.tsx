@@ -15,8 +15,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ data }) => {
 			<p className="projectcards-container-p">{data.description}</p>
 			<div className="line"></div>
 			<div className="projectcards-container-link">
-				{data.urls.map((url) => {
-					return <PageButton url={url} />;
+				{data.urls.map((url, index) => {
+					return <PageButton url={url} key={`${url.tipo}-${index}`} />;
 				})}
 			</div>
 		</div>

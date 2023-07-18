@@ -7,3 +7,9 @@
 	gap: 30px;
 	flex-wrap: wrap;
 }
+
+@media (width <= 730px) {
+	.projects-container {
+		margin-bottom: 40px;
+	}
+}
