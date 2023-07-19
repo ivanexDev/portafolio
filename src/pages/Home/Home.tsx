@@ -49,10 +49,11 @@ const Home: React.FC<HomeProps> = () => {
 				<div className="social-networks">
 					<a
 						className="social-networks__link"
-						href="https://github.com/ivanexdev">
+						href="https://github.com/ivanexdev"
+						target="_blank">
 						<Github />
 					</a>
-					<a href="https://www.linkedin.com/in/ipereirameza/">
+					<a href="https://www.linkedin.com/in/ipereirameza/" target="_blank">
 						<Linkedin />
 					</a>
 				</div>
