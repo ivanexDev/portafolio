@@ -2,8 +2,21 @@ import documento from "../../assets/img/documento.png";
 import chat from "../../assets/img/chat.png";
 import tiempo from "../../assets/img/tiempo.png";
 import encriptador from "../../assets/img/encriptador.png";
+import cmd from "../../assets/img/cmd.png"
 
 export const projectsData: ProjectDataInterface[] = [
+	{
+		title: "Organizador de Archivos",
+		img: cmd,
+		description:
+			"Aplicacion de linea de comandos para organizar archivos y carpetas.",
+		urls: [
+			{
+				tipo: "Github",
+				url: "https://github.com/ivanexDev/desktop-organizer",
+			},
+		],
+	},
 	{
 		title: "Encriptador",
 		img: encriptador,
@@ -74,14 +87,9 @@ export interface ProjectDataInterface {
 	title: string;
 	img: string;
 	description: string;
-	urls: [
+	urls: 
 		{
 			tipo: string;
 			url: string;
-		},
-		{
-			tipo: string;
-			url: string;
-		}
-	];
+		}[];
 }
