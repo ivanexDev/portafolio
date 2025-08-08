@@ -1,91 +1,91 @@
 .aboutme-title {
-	margin-top: 100px;
-	font-size: 3rem;
-	font-weight: 900;
-	margin: 0;
-	letter-spacing: 0.01px;
+  margin-top: 100px;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 0.01px;
 }
 .aboutme-container {
-	margin-top: 60px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .aboutme {
-	display: flex;
-	flex-direction: column;
-	gap: 25px;
-	width: 35%;
-	justify-content: center;
-	margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 35%;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .aboutme p {
-	font-weight: 400;
-	color: #a1a1a1;
-	font-size: 20px;
+  font-weight: 400;
+  color: #a1a1a1;
+  font-size: 20px;
 }
 
 .imgprofile {
-	width: 400px;
-	height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .aboutme-dec-img {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	gap: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
 }
 
 /* Titles */
 
 .h2Style {
-	padding: 0 20px;
-	margin-top: 60px;
-	font-size: 48px;
-	background: linear-gradient(0.4turn, rgb(254, 46, 23), rgb(255, 239, 68));
-	-webkit-background-clip: text;
-	transition: ease-in-out 1.5s;
-	color: rgba(255, 255, 255, 0);
+  padding: 0 20px;
+  margin-top: 60px;
+  font-size: 48px;
+  background: linear-gradient(0.4turn, rgb(254, 46, 23), rgb(255, 239, 68));
+  -webkit-background-clip: text;
+  transition: ease-in-out 1.5s;
+  color: rgba(255, 255, 255, 0);
 }
 
 .tech {
-	display: flex;
-	gap: 40px;
-	margin: 50px 0 50px 0;
-	flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+  margin: 50px 0 50px 0;
+  flex-wrap: wrap;
 }
 
 .download-icon-container {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 @media (width <= 830px) {
-	.aboutme-dec-img {
-		display: flex;
-		flex-direction: column;
-	}
-	.aboutme {
-		width: 80%;
-	}
-	.h2Style {
-		text-align: center;
-	}
-	main {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.tech {
-		margin: 50px 20px;
-		justify-content: center;
-	}
+  .aboutme-dec-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutme {
+    width: 80%;
+  }
+  .h2Style {
+    text-align: center;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tech {
+    margin: 50px 20px;
+    justify-content: center;
+  }
 
-	.imgprofile {
-		width: 250px;
-		height: 250px;
-	}
+  .imgprofile {
+    width: 250px;
+    height: 250px;
+  }
 }

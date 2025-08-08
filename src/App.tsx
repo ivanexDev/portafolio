@@ -8,19 +8,17 @@ import { Projects } from "./pages/Projects";
 import { Error404 } from "./pages/Error404";
 
 function App() {
-	return (
-		<>
-		
-				<Navbar />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/aboutme" element={<Aboutme />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="*" element={<Error404 />} />
-				</Routes>
-			
-		</>
-	);
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutme" element={<Aboutme />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
